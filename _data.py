@@ -52,7 +52,7 @@ def parsing(r):
 for j in range(16,40):
 	s = requests.session()
 	if(j<=9):
-		kelas_baru = kelas + 0 +str(j)
+		kelas_baru = kelas + "0" +str(j)
 	else:
 		kelas_baru = kelas + str(j)
 	#passing & crawling
