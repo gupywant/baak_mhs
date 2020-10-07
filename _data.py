@@ -48,7 +48,7 @@ def parsing(r):
 			#valu = (absen,npm,nama,lama,baru)
 			#mycursor.execute(sql, valu)
 			#mydb.commit()
-			i = i+6
+			i = i+5
 for j in range(16,40):
 	s = requests.session()
 	if(j<=9):
